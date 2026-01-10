@@ -25,7 +25,7 @@ Converts RGB to a color.
 ### Usage
 ```lua
 local LOLMouse = loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/LOLMouse/refs/heads/main/main.lua"))()
-LOLMouse.ToRGB(255, 0, 0)
+LOLMouse.FromRGB(255, 0, 0)
 ```
 ## LOLMouse.FromHSV()
 Converts HSV to a color.
