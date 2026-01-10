@@ -13,12 +13,12 @@ Returns a array that contains all of the descendants of an object.
 local LOLMouse = loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/LOLMouse/refs/heads/main/main.lua"))()
 LOLMouse.GetDescendants(game.Workspace)
 ```
-## LOLMouse.ToRGB
+## LOLMouse.ToRGB()
 Converts a color to RGB.
 ### Usage
 ```lua
 local LOLMouse = loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/LOLMouse/refs/heads/main/main.lua"))()
-LOLMouse.ToRGB(0.5, 0.25, 1)
+LOLMouse.ToRGB(Color3.new(0.5, 0.25, 1))
 ```
 ## LOLMouse.FromRGB()
 Converts RGB to a color.
