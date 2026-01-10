@@ -60,7 +60,7 @@ function LOLMouse.FromHSV(h, s, v) -- by louknt
     return Color3.new(r,g,b)
 end
 
-function LOLMouse.ToRGB(r, g, b) -- by SultanOfSwing
+function LOLMouse.ToRGB(col) -- by SultanOfSwing
   return math.floor(col.r*255), math.floor(col.g*255), math.floor(col.b*255)
 end
 
