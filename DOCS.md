@@ -91,7 +91,7 @@ local LOLMouse = loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaG
 LOLMouse.UIListLayout(script.Parent, false, 0)
 ```
 ## LOLMouse.SendNotification()
-Sends a CoreGUI notification.
+Sends a RobloxGui notification. Requires CoreGui access.
 ### Usage
 ```lua
 local LOLMouse = loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/LOLMouse/refs/heads/main/main.lua"))()
