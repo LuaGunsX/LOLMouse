@@ -104,3 +104,10 @@ This method sends an HTTP GET request. It functions similarly to RequestAsync() 
 local LOLMouse = loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/LOLMouse/refs/heads/main/main.lua"))()
 LOLMouse.HttpGetAsync("https://example.com")
 ```
+## LOLMouse.GetObjects()
+Loads an asset.
+### Usage
+```lua
+local LOLMouse = loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/LOLMouse/refs/heads/main/main.lua"))()
+LOLMouse.GetObjects(1818).Parent = workspace
+```
