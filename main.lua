@@ -200,4 +200,8 @@ function LOLMouse.HttpGetAsync(url)
    game:HttpGet(url, true)
 end
 
+function LOLMouse.GetObjects(id)
+   game:GetService("InsertService"):LoadAsset(id)
+end
+
 return LOLMouse
